@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "1CCiKPKCUVRQ8aZb9vylnod3wuXpwTlMfEW4kmZCROE=",
+  "Source": "KutumbaLogisticsAPI",
+  "BasePath": "_content/KutumbaLogisticsAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
