@@ -1,6 +1,13 @@
-using Infrastructure.Data;
+
+using Infrastructure.DataSeed;
 
 var builder = WebApplication.CreateBuilder(args);
+//var builder = WebApplication.CreateBuilder(new WebApplicationOptions
+//{
+//    WebRootPath = "wwwroot" // or your custom folder
+//});
+
+// Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerExtension();

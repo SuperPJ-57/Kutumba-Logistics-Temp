@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using System.Security.Cryptography;
 
 namespace Infrastructure.Persistence.Services
 {
@@ -12,17 +11,6 @@ namespace Infrastructure.Persistence.Services
         {
             _jwtSettings = jwtSettings.Value;
         }
-
-        public string GenerateRefreshToken(List<Claim> claims)
-        {
-            var randomNumber = new byte[32];
-            using (var rng = RandomNumberGenerator.Create())
-            {
-                rng.GetBytes(randomNumber);
-                return Convert.ToBase64String(randomNumber);
-            }
-        }
-
         /// <summary>
         /// Generate token
         /// </summary>

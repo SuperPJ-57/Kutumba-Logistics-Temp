@@ -1,209 +1,21 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "KutumbaLogisticsApi",
+    "title": "MultiTenant",
     "description": "This Api will be responsible for overall data distribution and authorization.",
     "version": "v1"
   },
   "paths": {
-    "/auth/register": {
+    "/api/track-vehicles": {
       "post": {
         "tags": [
-          "Authentication"
+          "Track Vehicles"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/RegisterCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/auth/login": {
-      "post": {
-        "tags": [
-          "Authentication"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/LoginQuery"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/auth/users": {
-      "get": {
-        "tags": [
-          "Authentication"
-        ],
-        "parameters": [
-          {
-            "name": "PageNumber",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 1
-            }
-          },
-          {
-            "name": "PageSize",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 10
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/auth/users/{id}": {
-      "get": {
-        "tags": [
-          "Authentication"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Authentication"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsersUpdateCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "Authentication"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/auth/signout": {
-      "post": {
-        "tags": [
-          "Authentication"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/SignOutCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/consignmentdetails": {
-      "post": {
-        "tags": [
-          "ConsignmentDetails"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ConsignmentsCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "ConsignmentDetails"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ConsignmentsUpdateCommand"
+                "$ref": "#/components/schemas/TrackVehiclesAddCommand"
               }
             }
           }
@@ -216,102 +28,7 @@
       },
       "get": {
         "tags": [
-          "ConsignmentDetails"
-        ],
-        "parameters": [
-          {
-            "name": "PageNumber",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 1
-            }
-          },
-          {
-            "name": "PageSize",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 10
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/consignmentdetails/{id}": {
-      "delete": {
-        "tags": [
-          "ConsignmentDetails"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "get": {
-        "tags": [
-          "ConsignmentDetails"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/drivers": {
-      "post": {
-        "tags": [
-          "Drivers"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/DriversCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "get": {
-        "tags": [
-          "Drivers"
+          "Track Vehicles"
         ],
         "parameters": [
           {
@@ -341,13 +58,13 @@
       },
       "put": {
         "tags": [
-          "Drivers"
+          "Track Vehicles"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/DriversUpdateCommand"
+                "$ref": "#/components/schemas/TrackVehiclesUpdateCommand"
               }
             }
           }
@@ -359,373 +76,10 @@
         }
       }
     },
-    "/drivers/{driverId}": {
+    "/api/track-vehicles/{id}": {
       "get": {
         "tags": [
-          "Drivers"
-        ],
-        "parameters": [
-          {
-            "name": "driverId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "Drivers"
-        ],
-        "parameters": [
-          {
-            "name": "driverId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/freights": {
-      "post": {
-        "tags": [
-          "Freight"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/FreightCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Freight"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/FreightUpdateCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "get": {
-        "tags": [
-          "Freight"
-        ],
-        "parameters": [
-          {
-            "name": "PageNumber",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 1
-            }
-          },
-          {
-            "name": "PageSize",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 10
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/freights/{freightId}": {
-      "delete": {
-        "tags": [
-          "Freight"
-        ],
-        "parameters": [
-          {
-            "name": "freightId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "get": {
-        "tags": [
-          "Freight"
-        ],
-        "parameters": [
-          {
-            "name": "freightId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/tripRequest": {
-      "post": {
-        "tags": [
-          "TripRequest"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/TripRequestCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "get": {
-        "tags": [
-          "TripRequest"
-        ],
-        "parameters": [
-          {
-            "name": "pageNumber",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 1
-            }
-          },
-          {
-            "name": "pageSize",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 10
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "TripRequest"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/TripRequestUpdateCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/tripRequest/{Id}": {
-      "get": {
-        "tags": [
-          "TripRequest"
-        ],
-        "parameters": [
-          {
-            "name": "Id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "TripRequest"
-        ],
-        "parameters": [
-          {
-            "name": "Id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/trip": {
-      "post": {
-        "tags": [
-          "Trips"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/TripCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Trips"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/TripUpdateCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "get": {
-        "tags": [
-          "Trips"
-        ],
-        "parameters": [
-          {
-            "name": "PageNumber",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 1
-            }
-          },
-          {
-            "name": "PageSize",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 10
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/trip/{id}": {
-      "delete": {
-        "tags": [
-          "Trips"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "get": {
-        "tags": [
-          "Trips"
+          "Track Vehicles"
         ],
         "parameters": [
           {
@@ -745,35 +99,41 @@
         }
       }
     },
-    "/vehicles": {
+    "/api/transportation-orders": {
       "post": {
         "tags": [
-          "Vehicles"
+          "TransportationOrders"
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/VehiclesCommand"
+                "type": "object",
+                "properties": {
+                  "command": {
+                    "$ref": "#/components/schemas/TransportationOrderAddCommand"
+                  }
+                }
+              },
+              "encoding": {
+                "command": {
+                  "style": "form"
+                }
               }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Vehicles"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
+            },
+            "application/x-www-form-urlencoded": {
               "schema": {
-                "$ref": "#/components/schemas/VehiclesUpdateCommand"
+                "type": "object",
+                "properties": {
+                  "command": {
+                    "$ref": "#/components/schemas/TransportationOrderAddCommand"
+                  }
+                }
+              },
+              "encoding": {
+                "command": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -786,7 +146,7 @@
       },
       "get": {
         "tags": [
-          "Vehicles"
+          "TransportationOrders"
         ],
         "parameters": [
           {
@@ -815,22 +175,89 @@
         }
       }
     },
-    "/vehicles/{id}": {
-      "delete": {
+    "/api/trip-logging": {
+      "post": {
         "tags": [
-          "Vehicles"
+          "Trip Logging"
         ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "command": {
+                    "$ref": "#/components/schemas/TripLoggingAddCommand"
+                  }
+                }
+              },
+              "encoding": {
+                "command": {
+                  "style": "form"
+                }
+              }
+            },
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "command": {
+                    "$ref": "#/components/schemas/TripLoggingAddCommand"
+                  }
+                }
+              },
+              "encoding": {
+                "command": {
+                  "style": "form"
+                }
+              }
             }
           }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Trip Logging"
         ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "command": {
+                    "$ref": "#/components/schemas/TripLoggingUpdateCommand"
+                  }
+                }
+              },
+              "encoding": {
+                "command": {
+                  "style": "form"
+                }
+              }
+            },
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "command": {
+                    "$ref": "#/components/schemas/TripLoggingUpdateCommand"
+                  }
+                }
+              },
+              "encoding": {
+                "command": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -839,7 +266,39 @@
       },
       "get": {
         "tags": [
-          "Vehicles"
+          "Trip Logging"
+        ],
+        "parameters": [
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/trip-logging/{id}": {
+      "get": {
+        "tags": [
+          "Trip Logging"
         ],
         "parameters": [
           {
@@ -862,124 +321,60 @@
   },
   "components": {
     "schemas": {
-      "ApprovalStatus": {
-        "enum": [
-          0,
-          1,
-          2
-        ],
-        "type": "integer",
-        "format": "int32"
-      },
-      "Consignment": {
+      "TrackVehiclesAddCommand": {
         "type": "object",
         "properties": {
-          "consignmentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "partyName": {
+          "vehicleName": {
             "type": "string",
             "nullable": true
           },
-          "partyContact": {
-            "type": "string",
-            "nullable": true
+          "latitude": {
+            "type": "number",
+            "format": "double"
           },
-          "goodDescription": {
-            "type": "string",
-            "nullable": true
-          },
-          "totalWeight": {
-            "type": "string",
-            "nullable": true
-          },
-          "loadingPoint": {
-            "type": "string",
-            "nullable": true
-          },
-          "unloadingPoint": {
-            "type": "string",
-            "nullable": true
-          },
-          "isActive": {
-            "type": "boolean"
+          "longitude": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
       },
-      "ConsignmentsCommand": {
+      "TrackVehiclesUpdateCommand": {
         "type": "object",
         "properties": {
-          "partyName": {
-            "type": "string",
-            "nullable": true
-          },
-          "partyContact": {
-            "type": "string",
-            "nullable": true
-          },
-          "goodDescription": {
-            "type": "string",
-            "nullable": true
-          },
-          "totalWeight": {
-            "type": "string",
-            "nullable": true
-          },
-          "loadingPoint": {
-            "type": "string",
-            "nullable": true
-          },
-          "unloadingPoint": {
-            "type": "string",
-            "nullable": true
-          },
           "id": {
             "type": "integer",
             "format": "int32"
           },
-          "vehicleId": {
-            "type": "integer",
-            "format": "int32"
+          "vehicleName": {
+            "type": "string",
+            "nullable": true
           },
-          "driverId": {
-            "type": "integer",
-            "format": "int32"
+          "latitude": {
+            "type": "number",
+            "format": "double"
           },
-          "consignmentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "freightId": {
-            "type": "integer",
-            "format": "int32"
+          "longitude": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
       },
-      "ConsignmentsUpdateCommand": {
+      "TransportationOrderAddCommand": {
         "type": "object",
         "properties": {
-          "consignmentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "partyName": {
+          "assignVehicle": {
             "type": "string",
             "nullable": true
           },
-          "partyContact": {
+          "consignmentPriority": {
             "type": "string",
             "nullable": true
           },
-          "goodDescription": {
-            "type": "string",
-            "nullable": true
-          },
-          "totalWeight": {
-            "type": "string",
-            "nullable": true
+          "freightRate": {
+            "type": "number",
+            "format": "double"
           },
           "loadingPoint": {
             "type": "string",
@@ -989,687 +384,118 @@
             "type": "string",
             "nullable": true
           },
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "vehicleId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "driverId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "freightId": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "Driver": {
-        "type": "object",
-        "properties": {
-          "driverId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "firstName": {
+          "clientName": {
             "type": "string",
             "nullable": true
           },
-          "lastName": {
+          "clientContact": {
             "type": "string",
             "nullable": true
           },
-          "contact": {
+          "startDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "deliveryDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "tripAllowance": {
+            "type": "number",
+            "format": "double"
+          },
+          "maintenanceFee": {
+            "type": "number",
+            "format": "double"
+          },
+          "driverAllowance": {
+            "type": "number",
+            "format": "double"
+          },
+          "custom1": {
             "type": "string",
             "nullable": true
           },
-          "licenseNumber": {
+          "custom2": {
             "type": "string",
             "nullable": true
           },
-          "dateOfBirth": {
-            "type": "string",
-            "format": "date"
-          },
-          "profileImagePath": {
+          "custom3": {
             "type": "string",
             "nullable": true
           },
-          "status": {
-            "$ref": "#/components/schemas/Status"
-          },
-          "isActive": {
-            "type": "boolean"
-          }
-        },
-        "additionalProperties": false
-      },
-      "DriversCommand": {
-        "type": "object",
-        "properties": {
-          "driverId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "firstName": {
-            "type": "string",
-            "nullable": true
-          },
-          "lastName": {
-            "type": "string",
-            "nullable": true
-          },
-          "contact": {
-            "type": "string",
-            "nullable": true
-          },
-          "licenseNumber": {
-            "type": "string",
-            "nullable": true
-          },
-          "dateOfBirth": {
-            "type": "string",
-            "format": "date"
-          },
-          "status": {
-            "$ref": "#/components/schemas/Status"
-          }
-        },
-        "additionalProperties": false
-      },
-      "DriversUpdateCommand": {
-        "type": "object",
-        "properties": {
-          "driverId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "firstName": {
-            "type": "string",
-            "nullable": true
-          },
-          "lastName": {
-            "type": "string",
-            "nullable": true
-          },
-          "contact": {
-            "type": "string",
-            "nullable": true
-          },
-          "licenseNumber": {
-            "type": "string",
-            "nullable": true
-          },
-          "dateOfBirth": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "profileImage": {
+          "documentFile": {
             "type": "string",
             "format": "binary",
             "nullable": true
-          },
-          "status": {
-            "$ref": "#/components/schemas/Status"
           }
         },
         "additionalProperties": false
       },
-      "Freight": {
+      "TripLoggingAddCommand": {
         "type": "object",
         "properties": {
-          "freightId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "freightRate": {
+          "loadingPoint": {
             "type": "string",
             "nullable": true
           },
-          "advancedPaid": {
+          "reFilledFuelStation": {
             "type": "string",
             "nullable": true
           },
-          "remainingAmount": {
+          "weight": {
             "type": "string",
             "nullable": true
           },
-          "paymentMode": {
-            "$ref": "#/components/schemas/PaymentMode"
+          "latitude": {
+            "type": "number",
+            "format": "double"
           },
-          "isActive": {
-            "type": "boolean"
-          }
-        },
-        "additionalProperties": false
-      },
-      "FreightCommand": {
-        "type": "object",
-        "properties": {
-          "freightId": {
-            "type": "integer",
-            "format": "int32"
+          "longitude": {
+            "type": "number",
+            "format": "double"
           },
-          "freightRate": {
+          "imageFile": {
             "type": "string",
-            "nullable": true
-          },
-          "advancedPaid": {
-            "type": "string",
-            "nullable": true
-          },
-          "remainingAmount": {
-            "type": "string",
-            "nullable": true
-          },
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "driverId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "vehicleId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "paymentMode": {
-            "$ref": "#/components/schemas/PaymentMode"
-          }
-        },
-        "additionalProperties": false
-      },
-      "FreightUpdateCommand": {
-        "type": "object",
-        "properties": {
-          "freightId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "freightRate": {
-            "type": "string",
-            "nullable": true
-          },
-          "advancedPaid": {
-            "type": "string",
-            "nullable": true
-          },
-          "remainingAmount": {
-            "type": "string",
-            "nullable": true
-          },
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "driverId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "vehicleId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "paymentMode": {
-            "$ref": "#/components/schemas/PaymentMode"
-          }
-        },
-        "additionalProperties": false
-      },
-      "LoginQuery": {
-        "type": "object",
-        "properties": {
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
-          "password": {
-            "type": "string",
+            "format": "binary",
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "PaymentMode": {
-        "enum": [
-          0,
-          1
-        ],
-        "type": "integer",
-        "format": "int32"
-      },
-      "RegisterCommand": {
-        "type": "object",
-        "properties": {
-          "firstName": {
-            "type": "string",
-            "nullable": true
-          },
-          "lastName": {
-            "type": "string",
-            "nullable": true
-          },
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
-          "password": {
-            "type": "string",
-            "nullable": true
-          },
-          "role": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "SignOutCommand": {
-        "type": "object",
-        "additionalProperties": false
-      },
-      "Status": {
-        "enum": [
-          0,
-          1,
-          2,
-          3,
-          4
-        ],
-        "type": "integer",
-        "format": "int32"
-      },
-      "Trip": {
-        "type": "object",
-        "properties": {
-          "tripId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "startDate": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "deliveryDate": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "tripAllowance": {
-            "type": "string",
-            "nullable": true
-          },
-          "maintenanceFee": {
-            "type": "string",
-            "nullable": true
-          },
-          "driverAllownace": {
-            "type": "string",
-            "nullable": true
-          },
-          "status": {
-            "$ref": "#/components/schemas/Status"
-          },
-          "isActive": {
-            "type": "boolean"
-          }
-        },
-        "additionalProperties": false
-      },
-      "TripCommand": {
-        "type": "object",
-        "properties": {
-          "tripId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "startDate": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "deliveryDate": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "tripAllowance": {
-            "type": "string",
-            "nullable": true
-          },
-          "maintenanceFee": {
-            "type": "string",
-            "nullable": true
-          },
-          "driverAllownace": {
-            "type": "string",
-            "nullable": true
-          },
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "driverId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "consignmentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "freightId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "vehicleId": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "TripRequest": {
+      "TripLoggingUpdateCommand": {
         "type": "object",
         "properties": {
           "id": {
             "type": "integer",
             "format": "int32"
           },
-          "tripId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "trip": {
-            "$ref": "#/components/schemas/Trip"
-          },
-          "consignmentId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "consignment": {
-            "$ref": "#/components/schemas/Consignment"
-          },
-          "vehicleId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "vehicle": {
-            "$ref": "#/components/schemas/Vehicle"
-          },
-          "driverId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "driver": {
-            "$ref": "#/components/schemas/Driver"
-          },
-          "freightId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "freight": {
-            "$ref": "#/components/schemas/Freight"
-          },
-          "fuelReceiptPath": {
+          "loadingPoint": {
             "type": "string",
             "nullable": true
           },
-          "refuelStation": {
+          "reFilledFuelStation": {
             "type": "string",
             "nullable": true
           },
-          "approvalStatus": {
-            "$ref": "#/components/schemas/ApprovalStatus"
-          },
-          "isActive": {
-            "type": "boolean"
-          }
-        },
-        "additionalProperties": false
-      },
-      "TripRequestCommand": {
-        "type": "object",
-        "properties": {
-          "tripRequest": {
-            "$ref": "#/components/schemas/TripRequest"
-          }
-        },
-        "additionalProperties": false
-      },
-      "TripRequestUpdateCommand": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "trip": {
-            "$ref": "#/components/schemas/Trip"
-          },
-          "consignment": {
-            "$ref": "#/components/schemas/Consignment"
-          },
-          "driver": {
-            "$ref": "#/components/schemas/Driver"
-          },
-          "vehicle": {
-            "$ref": "#/components/schemas/Vehicle"
-          },
-          "refuelStation": {
+          "weight": {
             "type": "string",
             "nullable": true
           },
-          "fuelReceiptPath": {
+          "latitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "imageFile": {
             "type": "string",
+            "format": "binary",
             "nullable": true
-          },
-          "approvalStatus": {
-            "$ref": "#/components/schemas/ApprovalStatus"
-          }
-        },
-        "additionalProperties": false
-      },
-      "TripUpdateCommand": {
-        "type": "object",
-        "properties": {
-          "tripId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "startDate": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "deliveryDate": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "tripAllowance": {
-            "type": "string",
-            "nullable": true
-          },
-          "maintenanceFee": {
-            "type": "string",
-            "nullable": true
-          },
-          "driverAllownace": {
-            "type": "string",
-            "nullable": true
-          },
-          "driverId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "vehicleId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "consignmentId": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "UsersUpdateCommand": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
-          "firstName": {
-            "type": "string",
-            "nullable": true
-          },
-          "lastName": {
-            "type": "string",
-            "nullable": true
-          },
-          "email": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Vehicle": {
-        "type": "object",
-        "properties": {
-          "vehicleId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "vehicleOwner": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleNumber": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleName": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleType": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleCapacity": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleVolume": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleImagePath": {
-            "type": "string",
-            "nullable": true
-          },
-          "status": {
-            "$ref": "#/components/schemas/Status"
-          },
-          "isActive": {
-            "type": "boolean"
-          }
-        },
-        "additionalProperties": false
-      },
-      "VehiclesCommand": {
-        "type": "object",
-        "properties": {
-          "vehicleOwner": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleNumber": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleName": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleType": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleCapacity": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleVolume": {
-            "type": "string",
-            "nullable": true
-          },
-          "driverId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "vehicleImagePath": {
-            "type": "string",
-            "nullable": true
-          },
-          "status": {
-            "$ref": "#/components/schemas/Status"
-          }
-        },
-        "additionalProperties": false
-      },
-      "VehiclesUpdateCommand": {
-        "type": "object",
-        "properties": {
-          "vehicleId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "vehicleOwner": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleNumber": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleName": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleType": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleCapacity": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleVolume": {
-            "type": "string",
-            "nullable": true
-          },
-          "vehicleImagePath": {
-            "type": "string",
-            "nullable": true
-          },
-          "driverId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "status": {
-            "$ref": "#/components/schemas/Status"
           }
         },
         "additionalProperties": false

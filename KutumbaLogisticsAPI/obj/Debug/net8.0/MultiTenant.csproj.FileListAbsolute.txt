@@ -1,0 +1,344 @@
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\appsettings.Development.json
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\appsettings.json
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MultiTenant.exe
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MultiTenant.deps.json
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MultiTenant.runtimeconfig.json
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MultiTenant.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MultiTenant.pdb
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\AutoMapper.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Azure.Core.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Azure.Identity.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Bogus.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Carter.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\FluentValidation.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Gurung.RepositoryPattern.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Gurung.ServiceRegister.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Humanizer.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MediatR.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MediatR.Contracts.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.CodeDom.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Memory.Data.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Application.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Domain.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Infrastructure.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Application.pdb
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Domain.pdb
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Infrastructure.pdb
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.csproj.AssemblyReference.cache
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.GeneratedMSBuildEditorConfig.editorconfig
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.AssemblyInfoInputs.cache
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.AssemblyInfo.cs
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.csproj.CoreCompileInputs.cache
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.MvcApplicationPartsAssemblyInfo.cs
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.MvcApplicationPartsAssemblyInfo.cache
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.sourcelink.json
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets.build.json
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets.development.json
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets\msbuild.MultiTenant.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets\msbuild.build.MultiTenant.props
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MultiTenant.props
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MultiTenant.props
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\scopedcss\bundle\MultiTenant.styles.css
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\refint\MultiTenant.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.pdb
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.genruntimeconfig.cache
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\ref\MultiTenant.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MultiTenant.staticwebassets.endpoints.json
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Carter.Analyzers.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets\msbuild.MultiTenant.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTen.E7215CED.Up2Date
+E:\Kutumba Projects\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.ClientModel.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.csproj.AssemblyReference.cache
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.GeneratedMSBuildEditorConfig.editorconfig
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.AssemblyInfoInputs.cache
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.AssemblyInfo.cs
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.csproj.CoreCompileInputs.cache
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.MvcApplicationPartsAssemblyInfo.cache
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\refint\MultiTenant.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.pdb
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\appsettings.json
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MultiTenant.staticwebassets.endpoints.json
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\appsettings.Development.json
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MultiTenant.exe
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MultiTenant.deps.json
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MultiTenant.runtimeconfig.json
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MultiTenant.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MultiTenant.pdb
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\AutoMapper.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Azure.Core.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Azure.Identity.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Bogus.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Carter.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Carter.Analyzers.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\FluentValidation.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Gurung.RepositoryPattern.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Gurung.ServiceRegister.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Humanizer.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MediatR.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MediatR.Contracts.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.ClientModel.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.CodeDom.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Memory.Data.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Application.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Domain.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Infrastructure.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Application.pdb
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Domain.pdb
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\Infrastructure.pdb
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\scopedcss\bundle\MultiTenant.styles.css
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets.build.json
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets.development.json
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets\msbuild.MultiTenant.Microsoft.AspNetCore.StaticWebAssets.props
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets\msbuild.MultiTenant.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets\msbuild.build.MultiTenant.props
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MultiTenant.props
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MultiTenant.props
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets.pack.json
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTen.E7215CED.Up2Date
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.genruntimeconfig.cache
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\ref\MultiTenant.dll
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\bin\Debug\net8.0\MultiTenant.staticwebassets.runtime.json
+E:\ERP-API-Multitenant\ERP-API-MultiTenent\MultiTenant\obj\Debug\net8.0\MultiTenant.MvcApplicationPartsAssemblyInfo.cs

@@ -17,7 +17,7 @@ public static class ServiceExtensions
             c.SwaggerDoc("v1", new OpenApiInfo
             {
                 Version = "v1",
-                Title = "KutumbaLogisticsApi",
+                Title = "MultiTenant",
                 Description = "This Api will be responsible for overall data distribution and authorization."
             });
             c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme

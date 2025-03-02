@@ -1,12 +1,13 @@
-﻿
-using Application.Interfaces.Repositories;
-using Domain.Logistic;
+﻿using Application.Interfaces.Repositories;
 
-namespace Infrastructure.Persistence.Repositories;
-
-public class TripRequestRepository : Repository<TripRequest>, ITripRequestRepository
+namespace Infrastructure.Persistence.Repositories
 {
-    public TripRequestRepository(MainDbContext dbContext) : base(dbContext)
+    public class TripRequestRepository : Repository<TripRequest>, ITripRequestRepository
     {
+
+        public TripRequestRepository(MainDbContext context) : base(context)
+        {
+
+        }
     }
 }

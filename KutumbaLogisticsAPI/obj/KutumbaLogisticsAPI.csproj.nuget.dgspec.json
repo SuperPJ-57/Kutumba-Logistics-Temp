@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\TransportApi\\KutumbaLogisticsAPI\\KutumbaLogisticsAPI.csproj": {}
+    "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\KutumbaLogisticsAPI.csproj": {}
   },
   "projects": {
-    "F:\\TransportApi\\Application\\Application.csproj": {
+    "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\TransportApi\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "F:\\TransportApi\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "F:\\TransportApi\\Application\\obj\\",
+        "projectPath": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\prajj\\.nuget\\packages\\",
+        "outputPath": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\prajj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\TransportApi\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\TransportApi\\Domain\\Domain.csproj"
+              "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Domain\\Domain.csproj"
               }
             }
           }
@@ -47,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -93,6 +89,10 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             },
             "Microsoft.CodeAnalysis.CSharp": {
               "target": "Package",
@@ -152,25 +152,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\TransportApi\\Domain\\Domain.csproj": {
+    "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\TransportApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "F:\\TransportApi\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "F:\\TransportApi\\Domain\\obj\\",
+        "projectPath": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\prajj\\.nuget\\packages\\",
+        "outputPath": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\prajj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -178,6 +174,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -195,8 +192,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -265,25 +261,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\TransportApi\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\TransportApi\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "F:\\TransportApi\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "F:\\TransportApi\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\prajj\\.nuget\\packages\\",
+        "outputPath": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\prajj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -291,17 +283,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\TransportApi\\Application\\Application.csproj": {
-                "projectPath": "F:\\TransportApi\\Application\\Application.csproj"
+              "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Application\\Application.csproj": {
+                "projectPath": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Application\\Application.csproj"
               },
-              "F:\\TransportApi\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\TransportApi\\Domain\\Domain.csproj"
+              "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Domain\\Domain.csproj"
               }
             }
           }
@@ -315,8 +308,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -412,25 +404,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\TransportApi\\KutumbaLogisticsAPI\\KutumbaLogisticsAPI.csproj": {
+    "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\KutumbaLogisticsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\TransportApi\\KutumbaLogisticsAPI\\KutumbaLogisticsAPI.csproj",
+        "projectUniqueName": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\KutumbaLogisticsAPI.csproj",
         "projectName": "KutumbaLogisticsAPI",
-        "projectPath": "F:\\TransportApi\\KutumbaLogisticsAPI\\KutumbaLogisticsAPI.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "F:\\TransportApi\\KutumbaLogisticsAPI\\obj\\",
+        "projectPath": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\KutumbaLogisticsAPI.csproj",
+        "packagesPath": "C:\\Users\\prajj\\.nuget\\packages\\",
+        "outputPath": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\prajj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -438,20 +426,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\TransportApi\\Application\\Application.csproj": {
-                "projectPath": "F:\\TransportApi\\Application\\Application.csproj"
+              "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Application\\Application.csproj": {
+                "projectPath": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Application\\Application.csproj"
               },
-              "F:\\TransportApi\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\TransportApi\\Domain\\Domain.csproj"
+              "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Domain\\Domain.csproj"
               },
-              "F:\\TransportApi\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "F:\\TransportApi\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -465,8 +454,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -554,7 +542,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

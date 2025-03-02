@@ -1,40 +1,15 @@
 [
   {
-    "ContainingType": "Application.Features.Authentication.AuthModule.AuthenticationModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_1",
-    "RelativePath": "auth/login",
-    "HttpMethod": "POST",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "query",
-        "Type": "Application.Features.Authentication.Queries.Login.LoginQuery",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Authentication"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Authentication.AuthModule.AuthenticationModule\u002B\u003C\u003Ec",
+    "ContainingType": "Application.Features.TrackVehicles.Module.TrackVehiclesModule\u002B\u003C\u003Ec",
     "Method": "\u003CAddRoutes\u003Eb__1_0",
-    "RelativePath": "auth/register",
+    "RelativePath": "api/track-vehicles/",
     "HttpMethod": "POST",
     "IsController": false,
     "Order": 0,
     "Parameters": [
       {
         "Name": "command",
-        "Type": "Application.Features.Authentication.Commands.Register.RegisterCommand",
+        "Type": "Application.Features.TrackVehicles.Command.TrackVehiclesAdd.TrackVehiclesAddCommand",
         "IsRequired": false
       }
     ],
@@ -46,303 +21,13 @@
       }
     ],
     "Tags": [
-      "Authentication"
+      "Track Vehicles"
     ]
   },
   {
-    "ContainingType": "Application.Features.Authentication.AuthModule.AuthenticationModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_6",
-    "RelativePath": "auth/signout",
-    "HttpMethod": "POST",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "Application.Features.Authentication.Commands.Signout.Command.SignOutCommand",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Authentication"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Authentication.AuthModule.AuthenticationModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_2",
-    "RelativePath": "auth/users",
-    "HttpMethod": "GET",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "PageNumber",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "PageSize",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Authentication"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Authentication.AuthModule.AuthenticationModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_3",
-    "RelativePath": "auth/users/{id:guid}",
-    "HttpMethod": "GET",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Authentication"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Authentication.AuthModule.AuthenticationModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_4",
-    "RelativePath": "auth/users/{id:guid}",
-    "HttpMethod": "PUT",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "command",
-        "Type": "Application.Features.Authentication.Commands.UsersUpdate.UsersUpdateCommand",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Authentication"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Authentication.AuthModule.AuthenticationModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_5",
-    "RelativePath": "auth/users/{id:guid}",
-    "HttpMethod": "DELETE",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Authentication"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.ConsignmentDetails.Module.ConsignmentDetailsModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_0",
-    "RelativePath": "consignmentdetails/",
-    "HttpMethod": "POST",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "Application.Features.Consignments.Command.AddConsignment.ConsignmentsCommand",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "ConsignmentDetails"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.ConsignmentDetails.Module.ConsignmentDetailsModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_2",
-    "RelativePath": "consignmentdetails/",
-    "HttpMethod": "PUT",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "Application.Features.Consignments.Command.UpdateConsignment.ConsignmentsUpdateCommand",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "ConsignmentDetails"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.ConsignmentDetails.Module.ConsignmentDetailsModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_3",
-    "RelativePath": "consignmentdetails/",
-    "HttpMethod": "GET",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "PageNumber",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "PageSize",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "ConsignmentDetails"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.ConsignmentDetails.Module.ConsignmentDetailsModule\u002B\u003C\u003Ec",
+    "ContainingType": "Application.Features.TrackVehicles.Module.TrackVehiclesModule\u002B\u003C\u003Ec",
     "Method": "\u003CAddRoutes\u003Eb__1_1",
-    "RelativePath": "consignmentdetails/{id:int}",
-    "HttpMethod": "DELETE",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "ConsignmentDetails"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.ConsignmentDetails.Module.ConsignmentDetailsModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_4",
-    "RelativePath": "consignmentdetails/{id:int}",
-    "HttpMethod": "GET",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "ConsignmentDetails"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Drivers.Module.DriversModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_0",
-    "RelativePath": "drivers/",
-    "HttpMethod": "POST",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "Application.Features.Drivers.Command.AddDrivers.DriversCommand",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Drivers"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Drivers.Module.DriversModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_1",
-    "RelativePath": "drivers/",
+    "RelativePath": "api/track-vehicles/",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -366,20 +51,20 @@
       }
     ],
     "Tags": [
-      "Drivers"
+      "Track Vehicles"
     ]
   },
   {
-    "ContainingType": "Application.Features.Drivers.Module.DriversModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_4",
-    "RelativePath": "drivers/",
+    "ContainingType": "Application.Features.TrackVehicles.Module.TrackVehiclesModule\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__1_2",
+    "RelativePath": "api/track-vehicles/",
     "HttpMethod": "PUT",
     "IsController": false,
     "Order": 0,
     "Parameters": [
       {
         "Name": "command",
-        "Type": "Application.Features.Drivers.Command.UpdateDrivers.DriversUpdateCommand",
+        "Type": "Application.Features.TrackVehicles.Command.TrackVehiclesUpdate.TrackVehiclesUpdateCommand",
         "IsRequired": false
       }
     ],
@@ -391,298 +76,13 @@
       }
     ],
     "Tags": [
-      "Drivers"
+      "Track Vehicles"
     ]
   },
   {
-    "ContainingType": "Application.Features.Drivers.Module.DriversModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_2",
-    "RelativePath": "drivers/{driverId:int}",
-    "HttpMethod": "GET",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "driverId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Drivers"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Drivers.Module.DriversModule\u002B\u003C\u003Ec",
+    "ContainingType": "Application.Features.TrackVehicles.Module.TrackVehiclesModule\u002B\u003C\u003Ec",
     "Method": "\u003CAddRoutes\u003Eb__1_3",
-    "RelativePath": "drivers/{driverId:int}",
-    "HttpMethod": "DELETE",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "driverId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Drivers"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Freights.Module.FreightsModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_0",
-    "RelativePath": "freights/",
-    "HttpMethod": "POST",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "Application.Features.Freights.Command.AddFreights.FreightCommand",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Freight"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Freights.Module.FreightsModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_2",
-    "RelativePath": "freights/",
-    "HttpMethod": "PUT",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "Application.Features.Freights.Command.UpdateFreights.FreightUpdateCommand",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Freight"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Freights.Module.FreightsModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_4",
-    "RelativePath": "freights/",
-    "HttpMethod": "GET",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "PageNumber",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "PageSize",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Freight"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Freights.Module.FreightsModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_1",
-    "RelativePath": "freights/{freightId:int}",
-    "HttpMethod": "DELETE",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "freightId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Freight"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Freights.Module.FreightsModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_3",
-    "RelativePath": "freights/{freightId:int}",
-    "HttpMethod": "GET",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "freightId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Freight"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Trips.Module.TripModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_0",
-    "RelativePath": "trip/",
-    "HttpMethod": "POST",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "Application.Features.Trips.Command.AddTrip.TripCommand",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Trips"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Trips.Module.TripModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_1",
-    "RelativePath": "trip/",
-    "HttpMethod": "PUT",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "Application.Features.Trips.Command.UpdateTrip.TripUpdateCommand",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Trips"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Trips.Module.TripModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_3",
-    "RelativePath": "trip/",
-    "HttpMethod": "GET",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "PageNumber",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "PageSize",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Trips"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Trips.Module.TripModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_2",
-    "RelativePath": "trip/{id:int}",
-    "HttpMethod": "DELETE",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Trips"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Trips.Module.TripModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_4",
-    "RelativePath": "trip/{id:int}",
+    "RelativePath": "api/track-vehicles/{id:int}",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -701,20 +101,20 @@
       }
     ],
     "Tags": [
-      "Trips"
+      "Track Vehicles"
     ]
   },
   {
-    "ContainingType": "Application.Features.TripRequests.Module.TripRequestModule\u002B\u003C\u003Ec",
+    "ContainingType": "Application.Features.TransportationOrder.Module.TransportationOrderModule\u002B\u003C\u003Ec",
     "Method": "\u003CAddRoutes\u003Eb__1_0",
-    "RelativePath": "tripRequest/",
+    "RelativePath": "api/transportation-orders/",
     "HttpMethod": "POST",
     "IsController": false,
     "Order": 0,
     "Parameters": [
       {
         "Name": "command",
-        "Type": "Application.Features.TripRequests.Command.AddTripRequest.TripRequestCommand",
+        "Type": "Application.Features.TransportationOrder.Command.TransportationOrderAdd.TransportationOrderAddCommand",
         "IsRequired": false
       }
     ],
@@ -726,13 +126,13 @@
       }
     ],
     "Tags": [
-      "TripRequest"
+      "TransportationOrders"
     ]
   },
   {
-    "ContainingType": "Application.Features.TripRequests.Module.TripRequestModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_2",
-    "RelativePath": "tripRequest/",
+    "ContainingType": "Application.Features.TransportationOrder.Module.TransportationOrderModule\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__1_1",
+    "RelativePath": "api/transportation-orders/",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -756,95 +156,20 @@
       }
     ],
     "Tags": [
-      "TripRequest"
+      "TransportationOrders"
     ]
   },
   {
-    "ContainingType": "Application.Features.TripRequests.Module.TripRequestModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_4",
-    "RelativePath": "tripRequest/",
-    "HttpMethod": "PUT",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "Application.Features.TripRequests.Command.UpdateTripRequest.TripRequestUpdateCommand",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "TripRequest"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.TripRequests.Module.TripRequestModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_1",
-    "RelativePath": "tripRequest/{Id:int}",
-    "HttpMethod": "GET",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "TripRequest"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.TripRequests.Module.TripRequestModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_3",
-    "RelativePath": "tripRequest/{Id:int}",
-    "HttpMethod": "DELETE",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "TripRequest"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Vehicles.Module.VehiclesModule\u002B\u003C\u003Ec",
+    "ContainingType": "Application.Features.TripLogging.Module.TripLoggingModule\u002B\u003C\u003Ec",
     "Method": "\u003CAddRoutes\u003Eb__1_0",
-    "RelativePath": "vehicles/",
+    "RelativePath": "api/trip-logging/",
     "HttpMethod": "POST",
     "IsController": false,
     "Order": 0,
     "Parameters": [
       {
         "Name": "command",
-        "Type": "Application.Features.Vehicles.Command.AddVehicles.VehiclesCommand",
+        "Type": "Application.Features.TripLogging.Command.TripLoggingAdd.TripLoggingAddCommand",
         "IsRequired": false
       }
     ],
@@ -856,20 +181,20 @@
       }
     ],
     "Tags": [
-      "Vehicles"
+      "Trip Logging"
     ]
   },
   {
-    "ContainingType": "Application.Features.Vehicles.Module.VehiclesModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_2",
-    "RelativePath": "vehicles/",
+    "ContainingType": "Application.Features.TripLogging.Module.TripLoggingModule\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__1_1",
+    "RelativePath": "api/trip-logging/",
     "HttpMethod": "PUT",
     "IsController": false,
     "Order": 0,
     "Parameters": [
       {
         "Name": "command",
-        "Type": "Application.Features.Vehicles.Command.UpdateVehicles.VehiclesUpdateCommand",
+        "Type": "Application.Features.TripLogging.Command.TripLoggingUpdate.TripLoggingUpdateCommand",
         "IsRequired": false
       }
     ],
@@ -881,13 +206,13 @@
       }
     ],
     "Tags": [
-      "Vehicles"
+      "Trip Logging"
     ]
   },
   {
-    "ContainingType": "Application.Features.Vehicles.Module.VehiclesModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_3",
-    "RelativePath": "vehicles/",
+    "ContainingType": "Application.Features.TripLogging.Module.TripLoggingModule\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__1_2",
+    "RelativePath": "api/trip-logging/",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -911,38 +236,13 @@
       }
     ],
     "Tags": [
-      "Vehicles"
+      "Trip Logging"
     ]
   },
   {
-    "ContainingType": "Application.Features.Vehicles.Module.VehiclesModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_1",
-    "RelativePath": "vehicles/{id:int}",
-    "HttpMethod": "DELETE",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ],
-    "Tags": [
-      "Vehicles"
-    ]
-  },
-  {
-    "ContainingType": "Application.Features.Vehicles.Module.VehiclesModule\u002B\u003C\u003Ec",
-    "Method": "\u003CAddRoutes\u003Eb__1_4",
-    "RelativePath": "vehicles/{id:int}",
+    "ContainingType": "Application.Features.TripLogging.Module.TripLoggingModule\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__1_3",
+    "RelativePath": "api/trip-logging/{id:int}",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -961,7 +261,7 @@
       }
     ],
     "Tags": [
-      "Vehicles"
+      "Trip Logging"
     ]
   }
 ]

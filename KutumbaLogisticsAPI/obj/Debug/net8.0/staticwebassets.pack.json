@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\images\\0fa50a8d-4001-4f14-a56d-2b8d10a1dfd5.png",
+      "PackagePath": "staticwebassets\\images\\0fa50a8d-4001-4f14-a56d-2b8d10a1dfd5.png"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\images\\10ea6765-3678-4274-af9e-5bfaa810e801.png",
+      "PackagePath": "staticwebassets\\images\\10ea6765-3678-4274-af9e-5bfaa810e801.png"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\images\\718d84df-706b-4734-a3fe-e2d6f5cf3525.png",
+      "PackagePath": "staticwebassets\\images\\718d84df-706b-4734-a3fe-e2d6f5cf3525.png"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\images\\7a95daa7-9f2b-4989-894a-ca53959e5696.png",
+      "PackagePath": "staticwebassets\\images\\7a95daa7-9f2b-4989-894a-ca53959e5696.png"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\images\\7cc5eb12-f58b-4f87-a3df-ee03b366b13c.png",
+      "PackagePath": "staticwebassets\\images\\7cc5eb12-f58b-4f87-a3df-ee03b366b13c.png"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\images\\cdb87755-fac8-4a23-b02a-43eb125e7e8b.png",
+      "PackagePath": "staticwebassets\\images\\cdb87755-fac8-4a23-b02a-43eb125e7e8b.png"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\images\\f9638dbf-f6e8-4a71-b105-b9033b899fb9.png",
+      "PackagePath": "staticwebassets\\images\\f9638dbf-f6e8-4a71-b105-b9033b899fb9.png"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\images\\f9e2c977-06b5-4b39-a0bc-9561ff282e67.png",
+      "PackagePath": "staticwebassets\\images\\f9e2c977-06b5-4b39-a0bc-9561ff282e67.png"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\uploads\\5zarc2y01ut.png",
+      "PackagePath": "staticwebassets\\uploads\\5zarc2y01ut.png"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\uploads\\h4yimuwwq33.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\h4yimuwwq33.jpeg"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\uploads\\i5gt1fzfsmu.png",
+      "PackagePath": "staticwebassets\\uploads\\i5gt1fzfsmu.png"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\uploads\\nkafslepeae.png",
+      "PackagePath": "staticwebassets\\uploads\\nkafslepeae.png"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\uploads\\unm4wjmw00r.png",
+      "PackagePath": "staticwebassets\\uploads\\unm4wjmw00r.png"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\uploads\\v42ywhwtmy4.png",
+      "PackagePath": "staticwebassets\\uploads\\v42ywhwtmy4.png"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\uploads\\vucglib51lt.pdf",
+      "PackagePath": "staticwebassets\\uploads\\vucglib51lt.pdf"
+    },
+    {
+      "Id": "D:\\Internship\\Kutumba Logistics API - Copy\\KUTUMBA-LOGISTICS-API\\KutumbaLogisticsAPI\\wwwroot\\uploads\\w5rsj4uo5kx.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\w5rsj4uo5kx.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KutumbaLogisticsAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.KutumbaLogisticsAPI.props",
+      "PackagePath": "build\\KutumbaLogisticsAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KutumbaLogisticsAPI.props",
+      "PackagePath": "buildMultiTargeting\\KutumbaLogisticsAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.KutumbaLogisticsAPI.props",
+      "PackagePath": "buildTransitive\\KutumbaLogisticsAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

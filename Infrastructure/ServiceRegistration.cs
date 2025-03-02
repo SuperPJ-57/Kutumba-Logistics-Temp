@@ -1,7 +1,6 @@
 ﻿
 using Application.Interfaces.Repositories;
 using Infrastructure.Persistence.Repositories;
-using System.Reflection;
 
 namespace Infrastructure;
 
@@ -14,12 +13,14 @@ public class ServiceRegistration : IServicesRegistrationWithConfig
             c.WithValidatorLifetime(ServiceLifetime.Scoped);
         });
         services.AddHttpContextAccessor();  // Needed to access HttpContext
+      
 
         services.Configure<JwtTokenSetting>(configuration.GetSection("JwtSettings"));
 
         // Add Tenant Migration Service
         //services.ConfigureServices();
         RepositoryServiceRegistration.ConfigureServices(services);
+       // RepositoryRegistration.ConfigureServices(services);
         // Current tenant service with scoped lifetime (created per each request)
 
     }
@@ -37,6 +38,9 @@ public class DatabaseRegistration : IDbServiceRegistration
                 configuration.GetConnectionString("DefaultConnection"),
                 sqlOptions => sqlOptions.MigrationsAssembly(typeof(MainDbContext).Assembly.FullName));
         });
+
+        //services.AddDbContextFactory<MainDbContext>();
+        //services.AddScoped<IMainDbContext>(provider => provider.GetRequiredService<MainDbContext>());
 
     }
 }
@@ -108,15 +112,15 @@ public class RepositoryRegistration : IRepositoriesRegistration
 {
     public void AddServices(IServiceCollection services)
     {
-
+     
         //services.AddScoped<IAccountsRepository, AccountsRepository>();
-        services.AddScoped<IDriversRepository, DriversRepository>();
-        services.AddScoped<IVehicleRepository, VehicleRepository>();
-        services.AddScoped<ITripRepository, TripsRepository>();
-        services.AddScoped<IConsignmentRepository, ConsignmentDetailsRepository>();
-        services.AddScoped<IFreightRepository, FreightsRepository>();
+        services.AddScoped<ITransportationOrderRepository, TransportationOrderRepository>();
+        services.AddScoped<ITrackVehiclesRepository, TrackVehiclesRepository>();
+        services.AddScoped<ITripLoggingRepository, TripLoggingRepository>();
+        services.AddScoped<ITripDetailsRepository, TripDetailsRepository>();
         services.AddScoped<ITripRequestRepository, TripRequestRepository>();
-
+        services.AddScoped<IOngoingLogisticsRepository, OngoingLogisticsRepository>();
+        
     }
 }
 
@@ -128,3 +132,8 @@ public class ServicesRegistration : IServicesRegistration
         services.AddTransient<ITokenService, TokenService>();
     }
 }
+
+
+
+
+

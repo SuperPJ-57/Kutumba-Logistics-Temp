@@ -1,12 +1,7 @@
 ﻿
-using Microsoft.Identity.Client;
-
-namespace Domain.Entities;
-
-public class ApplicationUser : IdentityUser
+namespace Domain.Entities
 {
-    
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-  
+    public class ApplicationUser : IdentityUser
+    {
+    }
 }
